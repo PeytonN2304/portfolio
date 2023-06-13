@@ -1,0 +1,33 @@
+:root {
+  font-size: 16px;
+}
+
+body {
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-track {
+  background: rgb(58, 58, 58);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 81, 0);
+}
+
+main {
+  margin-left: 5rem;
+  padding: 1rem;
+}
+
+.navbar {
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  background-color: black;
+}
